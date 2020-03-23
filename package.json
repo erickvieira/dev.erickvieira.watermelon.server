@@ -1,0 +1,19 @@
+{
+  "name": "bot-webrpc",
+  "version": "1.0.0",
+  "description": "A rpc microservice based on websocket and running under spring cloud platform",
+  "main": "lib/index.js",
+  "author": "erickvieira",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "socket.io": "^2.3.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  }
+}
